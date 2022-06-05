@@ -6,6 +6,10 @@
   list-style: none;
   box-sizing: border-box;
 }
+/* NEW */
+html {
+  scroll-behavior: smooth;
+}
 /* Body */
 body{
   height: 100%;
@@ -139,12 +143,12 @@ a:hover{
   vertical-align: middle;
   padding-left: 100px;
 }
-.about_text_inside h3{
+.about_text_inside h1{
   font-size: 36px;
   margin-bottom: 0;
   font-family: 'Copperplate', fantasy;
 }
-.about_text_inside h4{
+.about_text_inside h2{
   font-size: 22px;
   margin: 5px 0;
   font-family: 'Copperplate', fantasy;
